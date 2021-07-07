@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CALCULADORA {
 
 	public static void main(String[] args) {
-		// Criar um programa "CALCULADORA" utilizando as 4 operações matemáticas.
+		// Criar um programa chamado "CALCULADORA" utilizando as 4 operações matemáticas.
 		Scanner leitor = new Scanner(System.in);
 
 		int valor1;
