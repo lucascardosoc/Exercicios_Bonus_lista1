@@ -16,7 +16,6 @@ public class Exercício003 {
 		System.out.println("E o número de B é: " + varA);
 		leitor.close();
 		
-
 	}
 
 }
