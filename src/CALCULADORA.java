@@ -28,6 +28,7 @@ public class CALCULADORA {
 		System.out.println("O resultado da multiplicação é: " + multiplicacao);
 		System.out.println("O resultado da divisão é: " + divisao);
 
+		
 		leitor.close();
 	}
 
