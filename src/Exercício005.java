@@ -22,6 +22,7 @@ public class Exercício005 {
 			 }else {
 				 if (trash3<trash1) {
 					 System.out.println("O drone pode carregar o 3º saco de lixo");
+					 
 					 leitor.close();
 				 }
 			 }
