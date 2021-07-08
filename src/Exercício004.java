@@ -14,6 +14,7 @@ public class Exercício004 {
 			if (distancia<=70) 
 				System.out.println("ATIVADO");
 		}
+		
 		leitor.close();
 	}
 
