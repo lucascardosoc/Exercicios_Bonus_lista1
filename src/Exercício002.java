@@ -18,6 +18,7 @@ public class Exercício002 {
 		System.out.println("Esse filme possui, " + divisao + "horas");
 		System.out.println("E " + multiplicacao + "segundos");
 		leitor.close();
+		
 
 	}
 
