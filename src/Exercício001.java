@@ -20,10 +20,6 @@ public class Exercício001 {
 		leitor.close();
 		
 		
-		
-	
-		
-
 	}
 
 }
