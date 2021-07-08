@@ -20,7 +20,6 @@ public class Exercício006 {
 		
 		System.out.println("O valor final é de R$ " + valorFinal);
 		
-
 	}
 
 }
