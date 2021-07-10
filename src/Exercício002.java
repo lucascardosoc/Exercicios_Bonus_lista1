@@ -1,25 +1,32 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 public class Exercício002 {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
-		int tempo;
-		int minutos = 60;
-		int segundos = 3600;
-		int divisao;
-		int multiplicacao;
 		
-		System.out.println("Quantos minutos esse filme tem?");
-		tempo = leitor.nextInt();
+		int minutos, segundos;
+		double horas;
 		
-		divisao = tempo / minutos;
-		multiplicacao = tempo * segundos;
+		System.out.println("Esse programa recebe a duração de um filme em minutos e exibe a conversão para horas e para segundos");
+		System.out.println("Por favor, informe a duração do filme em minutos");
+		minutos = leitor.nextInt();
 		
-		System.out.println("Esse filme possui, " + divisao + "horas");
-		System.out.println("E " + multiplicacao + "segundos");
+		segundos = minutos * 60;
+		horas = minutos / 60.0;
+		
+		
+		
+		System.out.println("A duração desse filme é de " + segundos + " segundos");
+		
+		DecimalFormat formatador = new DecimalFormat("#.00");
+		
+		System.out.println("A duração desse filme é de " + formatador.format(horas) + " horas");
+		
+		
 		leitor.close();
 		
-
+	
 	}
 
 }
