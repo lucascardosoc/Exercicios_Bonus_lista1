@@ -12,8 +12,12 @@ public class Exercício003 {
 		System.out.println("Por favor, digite outro número para B");
 		varB = leitor.nextInt();
 		
-		System.out.println("O número de A é: " + varB);
-		System.out.println("E o número de B é: " + varA);
+		varA = varA + varB;
+		varB = varA - varB;
+		varA = varA - varB;
+		
+		System.out.println("O número de A é: " + varA);
+		System.out.println("E o número de B é: " + varB);
 		leitor.close();
 		
 	}
